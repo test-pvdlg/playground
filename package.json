@@ -1,0 +1,23 @@
+{
+  "name": "@pvdlg/playground",
+  "version": "0.0.0-dev",
+  "bugs": {
+    "url": "https://github.com/pvdlg/playground/issues"
+  },
+  "devDependencies": {
+    "@semantic-release/github": "semantic-release/github#filter-pr-with",
+    "semantic-release": "^15.9.3"
+  },
+  "homepage": "https://github.com/pvdlg/playground#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvdlg/playground.git"
+  },
+  "scripts": {
+    "test": "exit 0"
+  }
+}

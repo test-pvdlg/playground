@@ -1,0 +1,1 @@
+feat: setup semantic-release
