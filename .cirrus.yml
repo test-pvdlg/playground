@@ -1,0 +1,8 @@
+container:
+  image: node:latest
+
+lint_task:      
+  test_script: env
+
+test_task:
+  test_script: env
