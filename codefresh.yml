@@ -5,3 +5,4 @@ steps:
     working_directory: ${{main_clone}}
     commands:
       - env
+      - git --no-pager log --pretty=oneline
