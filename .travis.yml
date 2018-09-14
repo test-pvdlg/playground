@@ -20,11 +20,4 @@ install:
   - travis_retry npm install
 
 script:
-  - npm run test
-
-jobs:
-  include:
-    - stage: release
-      node_js: lts/*
-      script:
-        - npx semantic-release
+  - env
