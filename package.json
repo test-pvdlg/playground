@@ -5,7 +5,7 @@
     "url": "https://github.com/pvdlg/playground/issues"
   },
   "devDependencies": {
-    "@semantic-release/github": "semantic-release/github#filter-pr-with",
+    "@semantic-release/github": "^5.0.0",
     "semantic-release": "^15.9.3"
   },
   "homepage": "https://github.com/pvdlg/playground#readme",
