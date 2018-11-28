@@ -4,6 +4,6 @@ workflow "List environment variables" {
 }
 
 action "shell" {
-  uses = "./Dockerfile"
+  uses = "."
   runs = "env"
 }
