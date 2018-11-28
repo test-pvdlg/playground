@@ -4,6 +4,9 @@ workflow "List environment variables" {
 }
 
 action "shell" {
-  uses = "."
+  uses = "./"
   runs = "env"
+  env = {
+    MY_SECRET = "secret_value"
+  }
 }
