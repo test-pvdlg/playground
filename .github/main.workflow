@@ -5,8 +5,9 @@ workflow "List environment variables" {
 
 action "shell" {
   uses = "./"
-  runs = "cat /github/workflow/event.json"
+  runs = "git push --dry-run https://${GITHUB_TOKEN}@github.com/pvdlg/playground.git HEAD:master"
   env = {
     MY_SECRET = "secret_value"
   }
+  secrets = ["GITHUB_TOKEN"]
 }
