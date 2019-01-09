@@ -5,7 +5,7 @@ workflow "List environment variables" {
 
 action "shell" {
   uses = "./"
-  runs = "env"
+  runs = "cat /github/workflow/event.json"
   env = {
     MY_SECRET = "secret_value"
   }
