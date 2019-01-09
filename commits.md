@@ -17,3 +17,5 @@ Deploy PR 1
 Deploy PR 2
 
 Test teamcity
+
+Test GH action
