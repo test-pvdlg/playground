@@ -19,3 +19,5 @@ Deploy PR 2
 Test teamcity
 
 Test CircleCI
+
+Test PR from forked repo
